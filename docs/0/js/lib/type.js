@@ -14,6 +14,9 @@ export class Assertion {
 //export class TypeAssertion extends Assertion{constructor(target) {this._={target}}}
 export class TypeAssertion extends Assertion {
     constructor(target) {this._={target}}
+    _throw() {
+        throw new ValidationError(``);
+    }
 }
 export class TypeOfAssertion extends Assertion {
     constructor(target) {super(target)}

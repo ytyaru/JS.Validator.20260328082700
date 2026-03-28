@@ -1,15 +1,15 @@
-import {TypeAssertion, isPri, isRef} from './lib/type.js';
+import {TypeAssertion, isCls, isPri, isRef} from './lib/type.js';
 class ReferenceTypeAssertion extends TypeAssertion {
     constructor(target) {super(target)}
     get mod() {return }
-    get cls() {return }
+    get cls() {return } // cla
     get ins() {return }
     get obj() {return }
-    get ary() {return }
+    get ary() {return } // arr
     get map() {return }
     get set() {return }
-    get itr() {return }
-    get gen() {return }
+    get itr() {return } // ite
+    get gen() {return } // gen
 
     get mod() {return }
     get mod() {return }
